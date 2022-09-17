@@ -29,5 +29,4 @@ export const bus = new Vue();
 new Vue({
 	render: (h) => h(App),
 	router,
-	i18n,
 }).$mount("#app");
