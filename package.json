@@ -1,0 +1,41 @@
+{
+  "name": "form-app-bm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "stylelint": "stylelint ./src/**/*.scss",
+    "stylelint-fix": "stylelint ./src/**/*.scss --fix"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "core-js": "^3.6.5",
+    "debounce": "^1.2.1",
+    "firebase": "^9.6.10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuelidate": "^0.7.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "sass": "~1.32.6",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-pug": "~2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

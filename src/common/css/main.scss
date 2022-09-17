@@ -1,0 +1,60 @@
+@import "bulma";
+@import "./variables.scss";
+
+.sr-only {
+	border: 0;
+	clip: rect(0,0,0,0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	color: $black;
+	font-family: "Monserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 100%;
+
+	@media (min-width: $tablet-width) {
+		max-width: 720px;
+	}
+
+	@media (min-width: $desktop-width) {
+		max-width: 1140px;
+	}
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 8px -16px;
+}
+
+.col {
+	flex-basis: auto;
+	flex-grow: 1;
+	margin-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 100%;
+
+	@media (min-width: $tablet-width) {
+		flex-basis: 0;
+		margin-bottom: 0;
+		width: 50%;
+	}
+}
