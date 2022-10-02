@@ -1,6 +1,7 @@
 # Firebase + Vue App
 
 Issue tracker app using Vue + VueRouter with Firebase and Bulma.
+Deployed with Netlify: https://courageous-yeot-e8d13e.netlify.app
 
 ## Features
  - Can add issue with title, description
