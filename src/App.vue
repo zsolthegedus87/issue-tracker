@@ -2,7 +2,7 @@
 	#app
 		nav.navbar.is-primary(role='navigation' aria-label='main navigation')
 			.navbar-brand
-				a.navbar-item(href='#')
+				a.navbar-item(href='/')
 					img(src='https://bulma.io/images/bulma-logo.png' width='112' height='28')
 				a.navbar-burger(role='button' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample', @click="menuToggle = !menuToggle" :class="{ 'is-active': menuToggle }")
 					span(aria-hidden='true')
